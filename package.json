@@ -49,7 +49,7 @@
     "@types/storybook__react": "3.0.5",
     "awesome-typescript-loader": "3.3.0",
     "chance": "1.0.12",
-    "coveralls": "^3.0.0",
+    "coveralls": "3.0.0",
     "css": "2.2.1",
     "cssparser": "0.9.4",
     "enzyme": "3.1.1",
