@@ -3,6 +3,7 @@ node_js:
   - "8.6.0"
 
 before_script:
+  - yarn global add npmvet david nsp depcheck
   - yarn
 
 script:
