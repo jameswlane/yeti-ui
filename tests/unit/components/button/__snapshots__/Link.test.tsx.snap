@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link> should render the link 1`] = `
+<a
+  data-css-18toa6z=""
+  href="#"
+>
+  Expected text
+</a>
+`;

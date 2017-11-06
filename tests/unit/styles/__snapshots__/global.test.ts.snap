@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/styles/global.ts globalStyles should match snapshot 1`] = `
+Object {
+  "BLACK": "#0a0a0a",
+  "BODY_ANTIALIASED": true,
+  "BODY_BACKGROUND": "#fefefe",
+  "BODY_FONT_COLOR": "#0a0a0a",
+  "BODY_FONT_FAMILY": "'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
+  "BUTTON_CURSOR": "auto",
+  "COLOR_PICK_CONTRAST_TOLERANCE": 0,
+  "DARK_GRAY": "#8a8a8a",
+  "FLEXBOX": "true",
+  "FONT_SIZE": "100%",
+  "FOUNDATION_PALETTE": Object {
+    "ALERT": "#cc4b37",
+    "PRIMARY": "#1779ba",
+    "SECONDARY": "#767676",
+    "SUCCESS": "#3adb76",
+    "WARNING": "#ffae00",
+  },
+  "LEFT": "left",
+  "LIGHT_GRAY": "#e6e6e6",
+  "LINEHEIGHT": "1.5",
+  "MARGIN": "1rem",
+  "MEDIUM_GRAY": "#cacaca",
+  "MENU_NESTED_MARGIN": "1rem",
+  "MENU_PADDING": "0.7rem 1rem",
+  "PADDING": "1rem",
+  "POSITION": "1rem",
+  "PROTOTYPE_BREAKPOINTS": false,
+  "RADIUS": "0",
+  "RIGHT": "right",
+  "TEXT_DIRECTION": "ltr",
+  "WEIGHT_BOLD": "bold",
+  "WEIGHT_NORMAL": "normal",
+  "WHITE": "#fefefe",
+  "WIDTH": "rem-calc(1200)",
+}
+`;

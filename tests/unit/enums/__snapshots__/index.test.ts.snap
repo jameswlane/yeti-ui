@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/enums/index.ts enums should match snapshot 1`] = `
+Object {
+  "BadgeColors": Object {
+    "ALERT": "alert",
+    "INFO": "info",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "Breakpoints": Object {
+    "LARGE": "large",
+    "MEDIUM": "medium",
+    "SMALL": "small",
+    "XLARGE": "xlarge",
+    "XXLARGE": "xxlarge",
+  },
+  "ButtonColors": Object {
+    "ALERT": "alert",
+    "PRIMARY": "primary",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "ButtonGroupColors": Object {
+    "ALERT": "alert",
+    "PRIMARY": "primary",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "ButtonGroupSizes": Object {
+    "LARGE": "large",
+    "SMALL": "small",
+    "TINY": "tiny",
+  },
+  "ButtonSizes": Object {
+    "DEFAULT": "0.9rem",
+    "LARGE": "1.25rem",
+    "SMALL": "0.75rem",
+    "TINY": "0.6rem",
+  },
+  "CalloutColors": Object {
+    "ALERT": "alert",
+    "PRIMARY": "primary",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "CalloutSizes": Object {
+    "LARGE": "large",
+    "SMALL": "small",
+  },
+  "ExtendedBreakpoints": Object {
+    "ALL": "all",
+    "LARGE": "large",
+    "MEDIUM": "medium",
+    "SMALL": "small",
+    "XLARGE": "xlarge",
+    "XXLARGE": "xxlarge",
+  },
+  "FloatTypes": Object {
+    "CENTER": "center",
+    "LEFT": "left",
+    "RIGHT": "right",
+  },
+  "GutterTypes": Object {
+    "MARGIN": "margin",
+    "PADDING": "padding",
+  },
+  "HorizontalAlignments": Object {
+    "CENTER": "center",
+    "JUSTIFY": "justify",
+    "RIGHT": "right",
+    "SPACED": "spaced",
+  },
+  "LabelColors": Object {
+    "ALERT": "alert",
+    "INFO": "info",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "MenuAlignments": Object {
+    "CENTER": "center",
+    "RIGHT": "right",
+  },
+  "ProgressColors": Object {
+    "ALERT": "alert",
+    "SECONDARY": "secondary",
+    "SUCCESS": "success",
+    "WARNING": "warning",
+  },
+  "SpaceControls": Object {
+    "AUTO": "auto",
+    "GROW": "grow",
+    "SHRINK": "shrink",
+  },
+  "SwitchInputTypes": Object {
+    "CHECKBOX": "checkbox",
+    "RADIO": "radio",
+  },
+  "SwitchSizes": Object {
+    "LARGE": "large",
+    "SMALL": "small",
+    "TINY": "tiny",
+  },
+  "VerticalAlignments": Object {
+    "BOTTOM": "bottom",
+    "MIDDLE": "middle",
+    "STRETCH": "stretch",
+    "TOP": "top",
+  },
+}
+`;

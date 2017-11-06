@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/styles/colors.ts colors should match snapshot 1`] = `
+Object {
+  "ALERT": "#cc4b37",
+  "BLACK": "#0a0a0a",
+  "DARK_GRAY": "#8a8a8a",
+  "LIGHT_GRAY": "#e6e6e6",
+  "MEDIUM_GRAY": "#cacaca",
+  "PRIMARY": "#1779ba",
+  "SECONDARY": "#767676",
+  "SUCCESS": "#3adb76",
+  "WARNING": "#ffae00",
+  "WHITE": "#fefefe",
+}
+`;

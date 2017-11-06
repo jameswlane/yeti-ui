@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/button/styles.ts buttonBase should return button base style 1`] = `
+Object {
+  "WebkitAppearance": "none",
+  "border": "1px solid transparent",
+  "borderRadius": "0",
+  "cursor": "pointer",
+  "display": "inline-block",
+  "fontFamily": "inherit",
+  "fontSize": "0.9rem",
+  "lineHeight": "1",
+  "margin": "0 0 1rem 0",
+  "padding": "0.85em 1em",
+  "textAlign": "center",
+  "transition": "background-color 0.25s ease-out, color 0.25s ease-out",
+  "verticalAlign": "middle",
+}
+`;
+
+exports[`src/components/button/styles.ts buttonDisable should disabled style if isDisabled is true 1`] = `
+Object {
+  ":focus": Object {
+    "backgroundColor": "#1779ba",
+    "color": "#fefefe",
+  },
+  ":hover": Object {
+    "backgroundColor": "#1779ba",
+    "color": "#fefefe",
+  },
+  "cursor": "not-allowed",
+  "opacity": 0.25,
+}
+`;
+
+exports[`src/components/button/styles.ts buttonExpand should return button expand base style if isExpanded is false 1`] = `
+Object {
+  "display": "inline-block",
+  "margin": "0 0 1rem 0",
+  "width": "auto",
+}
+`;
+
+exports[`src/components/button/styles.ts buttonExpand should return expand style if isExpanded is true 1`] = `
+Object {
+  "display": "block",
+  "marginLeft": "0",
+  "marginRight": "0",
+  "width": "100%",
+}
+`;
+
+exports[`src/components/button/styles.ts buttonHollow should return no style if isHollow is true 1`] = `Object {}`;
+
+exports[`src/components/button/styles.ts buttonStyle should return button base style 1`] = `
+Object {
+  ":focus": Object {
+    "backgroundColor": "#126195",
+    "color": "#fefefe",
+  },
+  ":hover": Object {
+    "backgroundColor": "#126195",
+    "color": "#fefefe",
+  },
+  "backgroundColor": "#1779ba",
+  "color": "#fefefe",
+  "textDecoration": "none",
+}
+`;

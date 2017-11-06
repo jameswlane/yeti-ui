@@ -1,0 +1,70 @@
+{
+  "name": "yeti-ui",
+  "version": "1.0.0",
+  "description": "UI Library",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "ts:build": "tsc",
+    "ts:watch": "tsc -w",
+    "tslint": "tslint --config tslint.json --project tsconfig.json \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "tslint:fix": "tslint --config tslint.json --project tsconfig.json --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn tslint && yarn test",
+    "verify:npmvet": "npmvet --renderer ci --strict",
+    "verify:david": "david",
+    "verify:nsp": "nsp check --output summary",
+    "verify:check": "depcheck --ignores=@types/color,@types/enzyme,@types/jest,@types/node",
+    "verify:lighthouse": "lighthouse http://example.com",
+    "setup": "yarn global add npmvet david nsp depcheck lighthouse",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jameswlane/yeti-ui.git"
+  },
+  "author": "James W. Lane <james.w.lane@mac.com> (https://github.com/jameswlane)",
+  "contributors": [
+    "James W. Lane <james.w.lane@mac.com> (https://github.com/jameswlane)"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/jameswlane/yeti-ui/issues"
+  },
+  "homepage": "https://github.com/jameswlane/yeti-ui#readme",
+  "devDependencies": {
+    "@storybook/addon-actions": "3.2.14",
+    "@storybook/addon-knobs": "3.2.14",
+    "@storybook/react": "3.2.14",
+    "@types/color": "2.0.0",
+    "@types/jest": "21.1.5",
+    "@types/storybook__addon-actions": "3.0.1",
+    "@types/storybook__addon-knobs": "3.2.1",
+    "@types/storybook__react": "3.0.5",
+    "awesome-typescript-loader": "3.3.0",
+    "chance": "1.0.12",
+    "css": "2.2.1",
+    "cssparser": "0.9.4",
+    "enzyme": "3.1.1",
+    "enzyme-adapter-react-16": "1.0.4",
+    "enzyme-to-json": "3.2.1",
+    "jest": "21.2.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-test-renderer": "16.0.0",
+    "ts-jest": "21.1.4",
+    "tslint": "5.8.0",
+    "tslint-config-airbnb": "5.3.0",
+    "typescript": "2.6.1"
+  },
+  "dependencies": {
+    "color": "2.0.0",
+    "glamor": "2.20.40"
+  }
+}

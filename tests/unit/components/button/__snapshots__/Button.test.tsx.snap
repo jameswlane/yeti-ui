@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button> should render the button 1`] = `
+<button
+  data-css-18toa6z=""
+  onClick={[Function]}
+>
+  Expected text
+</button>
+`;
