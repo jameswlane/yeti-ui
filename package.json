@@ -52,6 +52,7 @@
     "coveralls": "3.0.0",
     "css": "2.2.1",
     "cssparser": "0.9.4",
+    "cz-conventional-changelog": "^2.1.0",
     "enzyme": "3.1.1",
     "enzyme-adapter-react-16": "1.0.4",
     "enzyme-to-json": "3.2.2",
@@ -67,5 +68,10 @@
   "dependencies": {
     "color": "2.0.1",
     "glamor": "2.20.40"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
