@@ -59,7 +59,7 @@
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "react-test-renderer": "16.0.0",
-    "ts-jest": "21.1.4",
+    "ts-jest": "21.2.0",
     "tslint": "5.8.0",
     "tslint-config-airbnb": "5.3.0",
     "typescript": "2.6.1"
