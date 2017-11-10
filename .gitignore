@@ -5,14 +5,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Compiled files
-lib
-
 # Coverage directory used by tools like istanbul
 coverage
+
+# Compiled source
+lib
 
 # Dependency directories
 node_modules/
 
-# Jetbrains
+# JetBrains settings
 .idea

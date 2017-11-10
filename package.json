@@ -19,8 +19,9 @@
     "verify:nsp": "nsp check --output summary",
     "verify:check": "depcheck --ignores=@types/color,@types/enzyme,@types/jest,@types/node",
     "verify:lighthouse": "lighthouse http://example.com",
-    "setup": "yarn global add npmvet david nsp depcheck lighthouse",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "setup": "yarn global add npmvet david nsp depcheck types-checker commitizen semantic-release-cli",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -63,7 +64,8 @@
     "ts-jest": "21.2.1",
     "tslint": "5.8.0",
     "tslint-config-airbnb": "5.3.0",
-    "typescript": "2.6.1"
+    "typescript": "2.6.1",
+    "semantic-release": "8.2.0"
   },
   "dependencies": {
     "color": "2.0.1",
