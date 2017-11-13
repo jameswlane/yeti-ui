@@ -59,7 +59,7 @@
     "enzyme-to-json": "3.2.2",
     "jest": "21.2.1",
     "react": "16.1.0",
-    "react-dom": "16.1.0",
+    "react-dom": "16.1.1",
     "react-test-renderer": "16.1.0",
     "ts-jest": "21.2.2",
     "tslint": "5.8.0",
