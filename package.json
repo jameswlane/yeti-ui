@@ -58,7 +58,7 @@
     "enzyme-adapter-react-16": "1.1.0",
     "enzyme-to-json": "3.2.2",
     "jest": "21.2.1",
-    "react-dom": "16.1.1",
+    "react-dom": "16.2.0",
     "react": "16.1.1",
     "react-test-renderer": "16.1.1",
     "ts-jest": "21.2.3",
