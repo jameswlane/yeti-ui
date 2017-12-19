@@ -7,6 +7,7 @@
     "/lib"
   ],
   "scripts": {
+    "test": "jest --coverage",
     "test:ci": "jest --maxWorkers=4",
     "test:coverage:ci": "jest --coverage --maxWorkers=4",
     "test:watch": "jest --watch",
