@@ -51,7 +51,7 @@
     "@types/storybook__addon-knobs": "3.2.1",
     "@types/storybook__react": "3.0.5",
     "awesome-typescript-loader": "3.4.1",
-    "chance": "1.0.12",
+    "chance": "1.0.13",
     "coveralls": "3.0.0",
     "css": "2.2.1",
     "cssparser": "0.9.4",
