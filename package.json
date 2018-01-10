@@ -44,7 +44,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "3.3.6",
     "@storybook/addon-knobs": "3.3.6",
-    "@storybook/react": "3.3.6",
+    "@storybook/react": "3.3.7",
     "@types/color": "2.0.0",
     "@types/jest": "22.0.1",
     "@types/storybook__addon-actions": "3.0.1",
