@@ -23,7 +23,7 @@
     "verify:lighthouse": "lighthouse http://example.com",
     "setup": "yarn global add npmvet david nsp depcheck types-checker commitizen semantic-release-cli",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
