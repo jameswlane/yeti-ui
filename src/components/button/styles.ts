@@ -84,9 +84,9 @@ export function buttonStyle(props: any) {
 
   const defaultBackgroundColor = backgroundColor ? backgroundColor : PRIMARY;
   const typeColor = buttonType ? buttonPalette[buttonType.toUpperCase()] : defaultBackgroundColor;
-  const defaultColor = Color(typeColor).light() ? BLACK : WHITE;
+  const defaultColor = Color(typeColor).isLight() ? BLACK : WHITE;
   const defaultHoverBackgroundColor = Color(typeColor).darken(buttonBackgroundHoverLightness).hex();
-  const defaultHoverColor = Color(defaultHoverBackgroundColor).light() ? BLACK : WHITE;
+  const defaultHoverColor = Color(defaultHoverBackgroundColor).isLight() ? BLACK : WHITE;
 
   return {
     ':focus': {
@@ -167,7 +167,7 @@ export function buttonDisable(props: any) {
     backgroundColor,
   } = props;
   if (isDisabled) {
-    const defaultColor = Color(backgroundColor).light() ? BLACK : WHITE;
+    const defaultColor = Color(backgroundColor).isLight() ? BLACK : WHITE;
 
     return {
       ':focus': {
@@ -197,7 +197,7 @@ export function buttonDropdown(props: any) {
   if (isDropdown) {
     const defaultBackgroundColor = backgroundColor ? backgroundColor : PRIMARY;
     const typeColor = buttonType ? buttonPalette[buttonType.toUpperCase()] : defaultBackgroundColor;
-    const defaultColor = Color(typeColor).light() ? BLACK : WHITE;
+    const defaultColor = Color(typeColor).isLight() ? BLACK : WHITE;
     const offset = getSides(buttonPadding, sideDirections.RIGHT);
     const cssTriangleObject = cssTriangle('0.4em', defaultColor, directions.DOWN);
     const triangleStyle = {
