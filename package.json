@@ -44,7 +44,7 @@
   "homepage": "https://github.com/jameswlane/yeti-ui#readme",
   "devDependencies": {
     "@storybook/addon-actions": "3.3.12",
-    "@storybook/addon-knobs": "3.3.12",
+    "@storybook/addon-knobs": "3.3.13",
     "@storybook/react": "3.3.12",
     "@types/color": "3.0.0",
     "@types/jest": "22.1.1",
