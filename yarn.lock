@@ -105,7 +105,7 @@
     react-inspector "^2.2.2"
     uuid "^3.2.1"
 
-"@storybook/addon-actions@3.4.4":
+"@storybook/addon-actions@^3.4.4":
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.4.4.tgz#03cc675977b6c6ce44a4dd7e2d36a910848af85f"
   dependencies:
