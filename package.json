@@ -62,7 +62,7 @@
     "enzyme-adapter-react-16": "1.6.0",
     "enzyme-to-json": "3.3.4",
     "jest": "23.6.0",
-    "react": "16.4.2",
+    "react": "16.5.2",
     "react-dom": "16.4.2",
     "react-test-renderer": "16.4.2",
     "semantic-release": "15.9.17",
