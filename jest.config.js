@@ -1,26 +1,28 @@
 module.exports = {
-  "globals": {
-    "ts-jest": {
-      "tsConfigFile": "tsconfig.json"
-    }
+  globals: {
+    'ts-jest': {
+      isolatedModules: true,
+      tsConfig: 'tsconfig.json',
+    },
   },
-  "transform": {
-    "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  "testMatch": [
-    "**/tests/**/*.test.(ts|tsx|js)"
+  testMatch: [
+    '**/tests/**/*.test.(ts|tsx|js)',
   ],
-  "setupFiles": [
-    "raf/polyfill",
-    "./tests/setup/enzyme.ts"
+  setupFiles: [
+    'raf/polyfill',
+    './tests/setup/enzyme.ts',
   ],
-  "snapshotSerializers": [
-    "enzyme-to-json/serializer"
+  snapshotSerializers: [
+    'enzyme-to-json/serializer',
   ],
-  "moduleFileExtensions": [
-    "ts",
-    "tsx",
-    "js"
+  moduleFileExtensions: [
+    'js',
+    'ts',
+    'tsx',
   ],
-  "clearMocks": true
-};
+  clearMocks: true,
+  preset: 'ts-jest',
+}
