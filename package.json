@@ -47,7 +47,7 @@
     "@storybook/addon-knobs": "3.4.11",
     "@storybook/react": "3.4.11",
     "@types/color": "3.0.0",
-    "@types/jest": "23.3.5",
+    "@types/jest": "23.3.7",
     "@types/storybook__addon-actions": "3.4.1",
     "@types/storybook__addon-knobs": "3.4.1",
     "@types/storybook__react": "3.0.9",
