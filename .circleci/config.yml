@@ -71,15 +71,13 @@ jobs:
             yarn global add npmvet
             yarn verify:npmvet
 
-  nsp:
+  audit:
     <<: *docker_defaults
     steps:
       - *attach_workspace
       - run:
-          name: Node Security
-          command: |
-            yarn global add nsp
-            yarn verify:nsp
+          name: NPM Audit Fix
+          command: npm run audit:fix
 
   tslint:
     <<: *docker_defaults
@@ -172,12 +170,12 @@ workflows:
       - npmvet:
           requires:
             - install
-      - nsp:
+      - audit:
           requires:
             - npmvet
       - tslint:
           requires:
-            - nsp
+            - audit
       - test-node-6:
           requires:
             - tslint
