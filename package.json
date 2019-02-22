@@ -55,7 +55,7 @@
     "awesome-typescript-loader": "5.2.1",
     "chance": "1.0.18",
     "codecov": "3.2.0",
-    "coveralls": "3.0.2",
+    "coveralls": "3.0.3",
     "css": "2.2.4",
     "cssparser": "0.9.4",
     "cz-conventional-changelog": "2.1.0",
