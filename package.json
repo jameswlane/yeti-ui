@@ -73,7 +73,7 @@
     "typescript": "3.4.4"
   },
   "dependencies": {
-    "color": "3.1.0",
+    "color": "3.1.1",
     "glamor": "2.20.40"
   },
   "config": {
