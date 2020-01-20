@@ -50,7 +50,7 @@
     "@types/color": "3.0.0",
     "@types/jest": "24.0.18",
     "@types/storybook__addon-actions": "3.4.3",
-    "@types/storybook__addon-knobs": "5.0.3",
+    "@types/storybook__addon-knobs": "5.2.1",
     "@types/storybook__react": "4.0.2",
     "awesome-typescript-loader": "5.2.1",
     "chance": "1.1.0",
